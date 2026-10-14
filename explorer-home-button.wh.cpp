@@ -4,7 +4,7 @@
 // @description     Adds a dedicated "Home" (This PC) button next to the Refresh button in the Windows 11 File Explorer address bar
 // @version         1.0.0
 // @author          RobotsNeverDie
-// @github          https://github.com/RobotsNeverDie/HomeExplorer
+// @github          https://github.com/RBND/HomeExplorer
 // @include         explorer.exe
 // @architecture    x86-64
 // @compilerOptions -lole32 -loleaut32 -lruntimeobject -lshell32 -lshlwapi -luuid
