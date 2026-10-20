@@ -4,7 +4,8 @@
 // @description     Adds a dedicated "Home" (This PC) button next to the Refresh button in the Windows 11 File Explorer address bar
 // @version         1.0.0
 // @author          RobotsNeverDie
-// @github          https://github.com/RBND/HomeExplorer
+// @github          https://github.com/RBND
+// @homepage        https://github.com/RBND/HomeExplorer
 // @include         explorer.exe
 // @architecture    x86-64
 // @compilerOptions -lole32 -loleaut32 -lruntimeobject -lshell32 -lshlwapi -luuid
@@ -39,15 +40,15 @@ Adds a native WinUI 3 **Home ("This PC")** button directly adjacent to the **Ref
     Place the Home button immediately before or after the Refresh button in the
     address bar.
   $options:
-  - before: Before Refresh button
-  - after: After Refresh button
+    - before: Before Refresh button
+    - after: After Refresh button
 - iconGlyph: home
   $name: Icon Glyph
   $description: >-
     Select the Segoe Fluent Icons glyph displayed on the button.
   $options:
-  - home: Home (E80F)
-  - computer: Computer / This PC (E770)
+    - home: Home (E80F)
+    - computer: Computer / This PC (E770)
 - tooltip: "This PC (Alt+Home)"
   $name: Tooltip Text
   $description: >-
